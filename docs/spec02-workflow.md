@@ -1,16 +1,15 @@
 ---
+title: Metodologia geral e workflows
 type: SPEC
 id: Spec02-workflow
-title: Metodologia geral e workflows
-version: 0.2.2
+version: 0.2.3
 version_status: DRAFT
 endorsed_n: 1
 endorsed_status: waiting
-key_people: Peter, Thierry, Igor e Enio
+responsible: ppkrauss (editor) 
 layout: page
 ---
-
-&#160;&#160;&#160; <code>urn:lex:br:associacao;dns-addressforall.org:norma.tecnica:2020;spec02;v0.2</code><br/>&#160;&#160;&#160; (DOCUMENTO  PÚBLICO)
+<p align="center"><code>urn:lex:br:associacao;dns-addressforall.org:norma.tecnica:2020;spec02;v0.2</code><br/>&#160;&#160;&#160; (DOCUMENTO  PÚBLICO)</p>
 
 CONTEÚDO
 
