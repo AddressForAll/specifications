@@ -1,50 +1,34 @@
-Metodologia geral e workflows![](assets-spec02/image6.png)
+---
+type: SPEC
+id: Spec02-workflow
+title: Metodologia geral e workflows
+version: 0.2.2
+version_status: DRAFT
+endorsed_n: 1
+endorsed_status: waiting
+key_people: Peter, Thierry, Igor e Enio
+layout: page
+---
 
-Todos os departamentos  •  Spec02 versão 0.2.1  •  Peter Krauss,
-Thierry, Igor e Enio
-
-urn:lex:br:associacao;dns-addressforall.org:norma.tecnica:2020;spec02;v0.2
-
-(DOCUMENTO  PÚBLICO)
+<center>`urn:lex:br:associacao;dns-addressforall.org:norma.tecnica:2020;spec02;v0.2`<br/>(DOCUMENTO  PÚBLICO)</center>
 
 CONTEÚDO
 
-[Ao leitor deste documento](#h.21gm8tm3te9n)        [1](#h.21gm8tm3te9n)
-
-[Apresentação](#h.2vl717vvrxbv)        [1](#h.2vl717vvrxbv)
-
-[Dados fundamentais](#h.79pkm0s2bt6d)        [1](#h.79pkm0s2bt6d)
-
-[Demais dados](#h.4fvtldldetbs)        [2](#h.4fvtldldetbs)
-
-[Concepção de geometrias e layers na informação
-espacial](#h.ayg0dardj8ho)        [4](#h.ayg0dardj8ho)
-
-[Atores na metodologia e
-workflows](#h.z1pvso2xwjtk)        [4](#h.z1pvso2xwjtk)
-
-[ESPECIFICAÇÃO](#h.fuc67y3cl7y4)        [5](#h.fuc67y3cl7y4)
-
-[Spec02.1 - Workflow geral](#h.1u8zrgv34ntm)        [5](#h.1u8zrgv34ntm)
-
-[Spec02.1 - Workflow no
-servidor](#h.psf0eykcvkr2)        [7](#h.psf0eykcvkr2)
-
-[Spec02.1.1 - Workflow na base
-Ingest](#h.tznjm6y2iccq)        [8](#h.tznjm6y2iccq)
-
-[Spec02.1.2 - Workflow no esquema
-StatCalc](#h.70p6vt2l6dq7)        [8](#h.70p6vt2l6dq7)
-
-[Spec02.1.3 - Workflow no esquema
-Optim](#h.ws8egxz14ji)        [8](#h.ws8egxz14ji)
-
-[Spec02.1.3 - Workflow de
-publicação](#h.z2mhdlxntcq)        [8](#h.z2mhdlxntcq)
+&#160; [Ao leitor deste documento](#h.21gm8tm3te9n)
+<br/>&#160; [Apresentação](#h.2vl717vvrxbv)
+<br/>&#160; [Dados fundamentais](#h.79pkm0s2bt6d)
+<br/>&#160; [Demais dados](#h.4fvtldldetbs)
+<br/>&#160; [Concepção de geometrias e layers na informação espacial](#h.ayg0dardj8ho)
+<br/>&#160; [Atores na metodologia e workflows](#h.z1pvso2xwjtk)
+<br/>&#160; [ESPECIFICAÇÃO](#h.fuc67y3cl7y4)
+<br/>&#160; [Spec02.1 - Workflow geral](#h.1u8zrgv34ntm)
+<br/>&#160; [Spec02.1 - Workflow no servidor](#h.psf0eykcvkr2)
+<br/>&#160; [Spec02.1.1 - Workflow na base Ingest](#h.tznjm6y2iccq)
+<br/>&#160; [Spec02.1.2 - Workflow no esquema StatCalc](#h.70p6vt2l6dq7)
+<br/>&#160; [Spec02.1.3 - Workflow no esquema Optim](#h.ws8egxz14ji)
+<br/>&#160; [Spec02.1.3 - Workflow de publicação](#h.z2mhdlxntcq)
 
 -----
-
-# 
 
 # Ao leitor deste documento
 
@@ -55,9 +39,7 @@ também possam acompanhar a leitura, garantindo a adoção de uma
 linguagem uniforme na governança dos processos técnicos.
 
 É suposto que o leitor deste documento tenha familiaridade com a
-[Spec01](https://www.google.com/url?q=https://docs.google.com/document/d/1gHOJbsQGA4Cy9vq5D8m96qLI5s45UsmusxQTSB-BTs4/&sa=D&ust=1594470371529000&usg=AOvVaw2VwNulN74FlX98Ow52YkiS),
-“Infraestrutura em nuvem”. Para as equipes de desenvolvimento de
-software e de suporte é suposto também que tenham acesso à Spec03.
+[Spec01](https://www.google.com/url?q=https://docs.google.com/document/d/1gHOJbsQGA4Cy9vq5D8m96qLI5s45UsmusxQTSB-BTs4/&sa=D&ust=1594470371529000&usg=AOvVaw2VwNulN74FlX98Ow52YkiS), “Infraestrutura em nuvem”. Para as equipes de desenvolvimento de software e de suporte é suposto também que tenham acesso à Spec03.
 
 O documento encontra-se em construção. Até a publicação da sua versão 1,
 este documento permanece como documento interno em editor de texto; em
@@ -131,9 +113,9 @@ expressa com as seguintes propriedades:
 
 <span id="t.529e93639af0b6b5f639de0b71b9f03462f446cc"></span><span id="t.0"></span>
 
-|             |                                                                                                                                          |                                                                                                                                                              |                                                                                                                                                                    |                                                                                                                                   |
-| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+
 | (nome)      | [GeoURI](https://www.google.com/url?q=https://www.wikidata.org/wiki/Q5533943&sa=D&ust=1594470371537000&usg=AOvVaw39H6EyHkCI4SBU-IyNuJyF) | [streetName](https://www.google.com/url?q=https://taginfo.openstreetmap.org/keys/addr%253Astreet&sa=D&ust=1594470371538000&usg=AOvVaw24Rpev9ESj0XneHHJhtlDk) | [houseNumber](https://www.google.com/url?q=https://taginfo.openstreetmap.org/keys/addr%253Ahousenumber&sa=D&ust=1594470371539000&usg=AOvVaw2DhLfnHE2qHMHlwfVPHjqI) | [city\_id](https://www.google.com/url?q=https://schema.org/identifier&sa=D&ust=1594470371539000&usg=AOvVaw0FG5lLY6OA2DI3Tg5-Fd6r) |
+| ----------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | (descrição) | Coordenandas latLong                                                                                                                     | Nome de logradouro                                                                                                                                           | numeração predial                                                                                                                                                  | Código IBGE                                                                                                                       |
 | (exemplo)   | \-23.561618,-46.655996                                                                                                                   | Av. Paulista                                                                                                                                                 | 1578                                                                                                                                                               | 3550308                                                                                                                           |
 
