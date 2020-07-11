@@ -10,23 +10,23 @@ key_people: Peter, Thierry, Igor e Enio
 layout: page
 ---
 
-<center>`urn:lex:br:associacao;dns-addressforall.org:norma.tecnica:2020;spec02;v0.2`<br/>(DOCUMENTO  PÚBLICO)</center>
+&#160;&#160;&#160; <code>urn:lex:br:associacao;dns-addressforall.org:norma.tecnica:2020;spec02;v0.2</code><br/>&#160;&#160;&#160; (DOCUMENTO  PÚBLICO)
 
 CONTEÚDO
 
-&#160; [Ao leitor deste documento](#h.21gm8tm3te9n)
-<br/>&#160; [Apresentação](#h.2vl717vvrxbv)
-<br/>&#160; [Dados fundamentais](#h.79pkm0s2bt6d)
-<br/>&#160; [Demais dados](#h.4fvtldldetbs)
-<br/>&#160; [Concepção de geometrias e layers na informação espacial](#h.ayg0dardj8ho)
-<br/>&#160; [Atores na metodologia e workflows](#h.z1pvso2xwjtk)
-<br/>&#160; [ESPECIFICAÇÃO](#h.fuc67y3cl7y4)
-<br/>&#160; [Spec02.1 - Workflow geral](#h.1u8zrgv34ntm)
-<br/>&#160; [Spec02.1 - Workflow no servidor](#h.psf0eykcvkr2)
-<br/>&#160; [Spec02.1.1 - Workflow na base Ingest](#h.tznjm6y2iccq)
-<br/>&#160; [Spec02.1.2 - Workflow no esquema StatCalc](#h.70p6vt2l6dq7)
-<br/>&#160; [Spec02.1.3 - Workflow no esquema Optim](#h.ws8egxz14ji)
-<br/>&#160; [Spec02.1.3 - Workflow de publicação](#h.z2mhdlxntcq)
+&#160; [Ao leitor deste documento](#ao-leitor-deste-documento)
+<br/>&#160; [Apresentação](#apresentação)
+<br/>&#160; [Dados fundamentais](#dados-fundamentais)
+<br/>&#160; [Demais dados](#demais-dados)
+<br/>&#160; [Concepção de geometrias e layers na informação espacial](#concepção-de-geometrias-e-layers-na-informação-espacial)
+<br/>&#160; [Atores na metodologia e workflows](#atores-na-metodologia-e-workflows)
+<br/>&#160; [ESPECIFICAÇÃO](#especificação)
+<br/>&#160; [Spec02.1 - Workflow geral](#spec021---workflow-geral)
+<br/>&#160; [Spec02.2 - Workflow no servidor](#spec022---workflow-no-servidor)
+<br/>&#160; [Spec02.2.1 - Workflow na base Ingest](#spec0221---workflow-na-base-ingest)
+<br/>&#160; [Spec02.2.2 - Workflow no esquema StatCalc](#)
+<br/>&#160; [Spec02.2.3 - Workflow no esquema Optim](#)
+<br/>&#160; [Spec02.2.4 - Workflow de publicação](#h)
 
 -----
 
@@ -213,9 +213,7 @@ cada uma das entidades:
     info) e/ou sua delimitação geográfica (geom).
   - ViaName, Term e NS: complementos da modelagem terminológica.
 
------
-
-## 
+------
 
 ## Concepção de geometrias e layers na informação espacial
 
@@ -344,11 +342,7 @@ Etapas na Equipe de Relacionamento e Aquisição
 </tbody>
 </table>
 
------
-
-## 
-
-## Spec02.1 - Workflow no servidor
+## Spec02.2 - Workflow no servidor
 
 Os dados ficam encapsulados por SQL schemas ou SQL databases, conforme
 perfil. São previstos quatro “cápsulas de dados” em função do workflow:
@@ -458,7 +452,7 @@ software se torna ativo intangível do Instituto.
 
 ...
 
-### Spec02.1.1 - Workflow na base Ingest
+### Spec02.2.1 - Workflow na base Ingest
 
 O fluxo de dados segue o workflow:
 
@@ -469,10 +463,10 @@ foi registrado, efetuando cadastro se necessário. Na cápsula Ingest:
 ingerir, tombar e, depois que contabilizado o tempo de residência,
 expurgar.
 
-### Spec02.1.2 - Workflow no esquema StatCalc
+### Spec02.2.2 - Workflow no esquema StatCalc
 
-### Spec02.1.3 - Workflow no esquema Optim
+### Spec02.2.3 - Workflow no esquema Optim
 
-### Spec02.1.3 - Workflow de publicação
+### Spec02.2.3 - Workflow de publicação
 
 Registros em git e cartório... cada versão Stable.
