@@ -59,13 +59,8 @@ A seguir a apresentação das abstrações e modelos mais gerais.
 O Projeto AddressForAll tem como foco o dado de endedereço, dentro do
 seguinte conceito:
 
-Geograficamente, o endereço é a localização de uma moradia, local de
-trabalho ou equipamento soicial. É um ponto geográfico aproximado, com
-precisão suficiente para se localizar um “portão”.  
-No meio urbano pode ser a porta de casa, a entrada principal de um
-edifício, de um parque ou condomínio; e no meio rural pode ser a
-porteira de acesso à propriedade rural, ou um marco de referência para a
-via de acesso à vila rural.
+> Geograficamente, o endereço é a localização de uma moradia, local de trabalho ou equipamento soicial. É um ponto geográfico aproximado, com precisão suficiente para se localizar um “portão”.  
+> No meio urbano pode ser a porta de casa, a entrada principal de um edifício, de um parque ou condomínio; e no meio rural pode ser a porteira de acesso à propriedade rural, ou um marco de referência para a via de acesso à vila rural.
 
 ![](assets-spec02/image7.png)
 
