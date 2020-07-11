@@ -39,16 +39,16 @@ também possam acompanhar a leitura, garantindo a adoção de uma
 linguagem uniforme na governança dos processos técnicos.
 
 É suposto que o leitor deste documento tenha familiaridade com a
-[Spec01](https://www.google.com/url?q=https://docs.google.com/document/d/1gHOJbsQGA4Cy9vq5D8m96qLI5s45UsmusxQTSB-BTs4/&sa=D&ust=1594470371529000&usg=AOvVaw2VwNulN74FlX98Ow52YkiS), “Infraestrutura em nuvem”. Para as equipes de desenvolvimento de software e de suporte é suposto também que tenham acesso à Spec03.
+[Spec01](https://docs.google.com/document/d/1gHOJbsQGA4Cy9vq5D8m96qLI5s45UsmusxQTSB-BTs4), “Infraestrutura em nuvem”. Para as equipes de desenvolvimento de software e de suporte é suposto também que tenham acesso à Spec03.
 
 O documento encontra-se em construção. Até a publicação da sua versão 1,
 este documento permanece como documento interno em editor de texto; em
 seguida ele será transformado em formato markdown e
-[mantido](https://www.google.com/url?q=https://www.mkdocs.org/&sa=D&ust=1594470371530000&usg=AOvVaw22R7uytfZ2A2HAwmV4qNLi)
-[online](https://www.google.com/url?q=https://www.mkdocs.org/&sa=D&ust=1594470371531000&usg=AOvVaw1lyIn3JQAitMG-9S6fIfSy) com
+[mantido](https://www.mkdocs.org/)
+[online](https://www.mkdocs.org/) com
 cópia [em
-repositório](https://www.google.com/url?q=https://github.com/AddressForAll/specifications&sa=D&ust=1594470371531000&usg=AOvVaw3g7pZ9adrYie9C2l6kUmXB)
-[git](https://www.google.com/url?q=https://github.com/AddressForAll/specifications&sa=D&ust=1594470371531000&usg=AOvVaw3g7pZ9adrYie9C2l6kUmXB)[ público](https://www.google.com/url?q=https://github.com/AddressForAll/specifications&sa=D&ust=1594470371532000&usg=AOvVaw04qSDZOi-4YffQVBSEml0m).
+repositório](https://github.com/AddressForAll/specifications)
+[git](https://github.com/AddressForAll/specifications) [público](https://github.com/AddressForAll/specifications).
 
 # Apresentação
 
@@ -74,10 +74,10 @@ contextualizados pela jurisdição municipal.
 
 Convencionamos no Projeto que os dados são armazenados através de
 tabelas de dados, ou seja, através do tradicional [modelo
-relacional](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Relational_model&sa=D&ust=1594470371533000&usg=AOvVaw0UEgJfyhhrYV1KyQ2yq5RH),
+relacional](https://en.wikipedia.org/wiki/Relational_model),
 e sua especificação pode ser realizada através de abstrações de alto
 nível, baseadas na [modelagem entidade-relacionamento
-estendida](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Enhanced_entity%25E2%2580%2593relationship_model&sa=D&ust=1594470371533000&usg=AOvVaw1mGGLWZBWyIZKmZ1Fuv63x). Nas
+estendida](https://en.wikipedia.org/wiki/Enhanced_entity%25E2%2580%2593relationship_model). Nas
 especificações técnicas de dados, portanto, serão mensionadas entidades
 e suas propriedades e entidades e seus relacionamentos.  
 
@@ -86,18 +86,18 @@ entidade e os nomes de propriedades (metadados ou descritores de colunas
 nas tabelas de dados) são todos expressos na língua inglesa. Para
 garantir a escolha de nomes padronizados com significados padronizados,
 adotam-se os vocabulários semânticos
-[SchemaOrg](https://www.google.com/url?q=https://schema.org/&sa=D&ust=1594470371534000&usg=AOvVaw20U3q9hyEdq4PnSORsogrb)
+[SchemaOrg](https://schema.org/)
 ou
-[Wikidata](https://www.google.com/url?q=https://www.wikidata.org&sa=D&ust=1594470371534000&usg=AOvVaw2WdVonWwp5jBgZLBYZozu2),
+[Wikidata](https://www.wikidata.org),
 com preferência pelos nomes de
-[tag](https://www.google.com/url?q=https://taginfo.openstreetmap.org/&sa=D&ust=1594470371535000&usg=AOvVaw0fjFH7loOllHczHfe4QMfs)
+[tag](https://taginfo.openstreetmap.org/)
 [do
-OpenStreetMap](https://www.google.com/url?q=https://taginfo.openstreetmap.org/&sa=D&ust=1594470371535000&usg=AOvVaw0fjFH7loOllHczHfe4QMfs) sempre
+OpenStreetMap](https://taginfo.openstreetmap.org/) sempre
 que possível.
 
 Assim, endereço é a entidade Address, que como vimos acima não é
 exatamente a entidade
-[PostalAddress](https://www.google.com/url?q=https://schema.org/PostalAddress&sa=D&ust=1594470371536000&usg=AOvVaw2_41cPMSwDtln-ePXqShOO) do
+[PostalAddress](https://schema.org/PostalAddress) do
 vocabulário SchemaOrg, por isso também lançamos mão de um modelo de
 dados que representa com mais precisão a semântica e os relacionamentos
 adotados pelo projeto.  
@@ -109,7 +109,7 @@ expressa com as seguintes propriedades:
 <span id="t.529e93639af0b6b5f639de0b71b9f03462f446cc"></span><span id="t.0"></span>
 
 
-| (nome)      | [GeoURI](https://www.google.com/url?q=https://www.wikidata.org/wiki/Q5533943&sa=D&ust=1594470371537000&usg=AOvVaw39H6EyHkCI4SBU-IyNuJyF) | [streetName](https://www.google.com/url?q=https://taginfo.openstreetmap.org/keys/addr%253Astreet&sa=D&ust=1594470371538000&usg=AOvVaw24Rpev9ESj0XneHHJhtlDk) | [houseNumber](https://www.google.com/url?q=https://taginfo.openstreetmap.org/keys/addr%253Ahousenumber&sa=D&ust=1594470371539000&usg=AOvVaw2DhLfnHE2qHMHlwfVPHjqI) | [city\_id](https://www.google.com/url?q=https://schema.org/identifier&sa=D&ust=1594470371539000&usg=AOvVaw0FG5lLY6OA2DI3Tg5-Fd6r) |
+| (nome)      | [GeoURI](https://www.wikidata.org/wiki/Q5533943) | [streetName](https://taginfo.openstreetmap.org/keys/addr%253Astreet) | [houseNumber](https://taginfo.openstreetmap.org/keys/addr%253Ahousenumber) | [city\_id](https://schema.org/identifier) |
 | ----------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | (descrição) | Coordenandas latLong                                                                                                                     | Nome de logradouro                                                                                                                                           | numeração predial                                                                                                                                                  | Código IBGE                                                                                                                       |
 | (exemplo)   | \-23.561618,-46.655996                                                                                                                   | Av. Paulista                                                                                                                                                 | 1578                                                                                                                                                               | 3550308                                                                                                                           |
@@ -135,12 +135,12 @@ entidade separada, denomiada entidade Via. Analogamente o código IBGE de
 município, na propriedade city\_id, requer  uma entidade separada para
 fornecer outros detalhes, tais como o nome da cidade e estado em que
 está contida. Para isso foi definida a [entidade
-City](https://www.google.com/url?q=https://schema.org/City&sa=D&ust=1594470371543000&usg=AOvVaw2A0DeiGqhikUO7Y6790tzN).
+City](https://schema.org/City).
 
 Estas e outras entidades, que ajudam a armazenar ou complementar a
 descrição de Address, são definidas mais formalmente através do modelo
 de dados, representado na forma de [diagrama de classe
-UML](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Class_diagram&sa=D&ust=1594470371544000&usg=AOvVaw2AlEt7BbQ-rsZKZOnA3EWg):
+UML](https://en.wikipedia.org/wiki/Class_diagram):
 
 ![](assets-spec02/image4.png)
 
@@ -175,7 +175,7 @@ cada uma das entidades:
     cidades diferentes pode reusar por exemplo “Avenida Getúlio
     Vargas”).
   - POI: ponto de interesse (Point of Interest), determinado por
-    [GeoURI](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Geo_URI_scheme&sa=D&ust=1594470371545000&usg=AOvVaw32xakGJMkFSIxiIBDJ9muQ),
+    [GeoURI](https://en.wikipedia.org/wiki/Geo_URI_scheme),
     ou seja por coordenadas padronizadas de latitude e longitude (geom),
     e opcionalmente a incerteza de localização (uncertain).  
     No modelo são previstos também pontos que não são de endereçamento
@@ -199,7 +199,7 @@ cada uma das entidades:
     nome de bairro.  
   - Lot: entidade abstrata, definida apenas para lembrar que o endereço
     está associado a um [lote de
-    terra](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Land_lot&sa=D&ust=1594470371547000&usg=AOvVaw3jW9eZOoYXN65oFjsgaJ09),
+    terra](https://en.wikipedia.org/wiki/Land_lot),
     mesmo que imaginário e sem informações oficiais. Lotes não precisam
     respeitar as fronteiras entre municípios, apesar da cobrança de IPTU
     exigir desmembramento da sua geometria para este fim.
@@ -214,9 +214,9 @@ cada uma das entidades:
 
 A interoperabilidade dos dados espaciais é garantidade através do
 formato
-[GeoJSON](https://www.google.com/url?q=https://en.wikipedia.org/wiki/GeoJSON&sa=D&ust=1594470371548000&usg=AOvVaw2SI9gFJ-4pRbVPAXidPhLq) e
+[GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) e
 do modelo de dados adotado pelo OpenStreetMap (OSM). O [modelo de dado
-OSM](https://www.google.com/url?q=https://wiki.openstreetmap.org/wiki/OSM_XML&sa=D&ust=1594470371549000&usg=AOvVaw0svRhkR-_Exc4F9nYPtoje) faz
+OSM](https://wiki.openstreetmap.org/wiki/OSM_XML) faz
 uso apenas 3 elementos estruturais:  
 nodes, ways e relations.![](assets-spec02/image1.png)
 
@@ -322,7 +322,7 @@ Etapas na Equipe de Relacionamento e Aquisição
 <li>(se contém endereços) Verificação se o material contém informação útil;</li>
 <li>(Se não) comunica-se o cedente avisando e orientando.</li>
 <li>Verificação da compatibilidade da licença (maior parte “implícita CC0”);</li>
-<li>Armazenamento da licença com prova digital na <a href="https://www.google.com/url?q=http://uniproof.com.br&amp;sa=D&amp;ust=1594470371554000&amp;usg=AOvVaw3iVGNZPMNvqyF1gbElmCo1" class="c13">Uniproof</a>;</li>
+<li>Armazenamento da licença com prova digital na <a href="http://uniproof.com.br&amp;sa=D&amp;ust=1594470371554000&amp;usg=AOvVaw3iVGNZPMNvqyF1gbElmCo1" class="c13">Uniproof</a>;</li>
 <li>Avaliação inicial do material para classificação e tratamento (2h no máximo).</li>
 </ul></td>
 <td><p>Etapa 3 – Tratamento inicial e Teste</p>
@@ -405,7 +405,7 @@ publicamos nada, apenas recebemos. Publicamos o software, para destacar
 os padrões adotados e a reproducibulidade a partir dos dados
 preservados,  e talvez alguns datasets de referencia, tais como por
 exemplo para [nomes de
-municipios](https://www.google.com/url?q=http://datasets.ok.org.br/city-codes&sa=D&ust=1594470371563000&usg=AOvVaw0-FE72xOzd3N2pjyJ6W1j6).
+municipios](http://datasets.ok.org.br/city-codes).
 
 Alguns dados, por exemplo de prefeituras que ainda não homologaram, ou
 de empresas privadas, não passam pelas etapas públicas, e se mantém com
