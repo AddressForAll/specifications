@@ -270,7 +270,7 @@ e aquisição”, que faz parte da equipe de Preparo de dados.
 
 Todo processo formal com envolvimento de pessoas e demanda por transparência, requer a identificação pública das pessoas que assumiram a responsabilidade por entregas. Para evitar problemas com a [LGPD](https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2018-08-14;13709) e normas similares, adotamos como responsáveis as pessoas dispostas a confirmarem a sua identidade publicamente.
 
-Quem oferece publicamente, em diários oficiais ou meios similares,  seu nome e CPF é uma [pessoa pública](https://github.com/datasets-br/public-person). Quanda não existir evidência oficial, é prevista, conforme Art. 2º, item II da LGPD,  a autodeterminação informativa. Para tornar pública a sua identificação, ela precisa ser expessa através de declaração digitalmente assinada e citando [página pública no `web.archive` como evidência](http://web.archive.org/).
+Quem oferece publicamente, em diários oficiais ou meios similares,  seu nome e CPF pode ser conceituado tecnicamente como  [pessoa pública](https://github.com/datasets-br/public-person). Quanda não existir evidência oficial, é prevista, conforme Art. 2º, item II da LGPD,  a autodeterminação informativa. Para tornar pública a sua identificação, ela precisa ser expessa através de declaração digitalmente assinada e citando [página pública no `web.archive` como evidência](http://web.archive.org/). Com isso ficam cumpridas as exigências da LGPD (Art. 7º  § 4º).
 
 <!-- 
 Outros exemplos de pessoas públicas:
