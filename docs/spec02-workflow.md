@@ -2,7 +2,7 @@
 title: Metodologia geral e workflows
 type: SPEC
 id: Spec02-workflow
-version: 0.2.3
+version: 0.2.4
 version_status: DRAFT
 endorsed_n: 1
 endorsed_status: waiting
@@ -244,28 +244,41 @@ No Projeto AddressForAll foi também adotado o PostGIS, mantendo em geral
 a representação geométrica e de atributos proveviente do
 OpenStreetMap.
 
-![](assets-spec02/image3.png)
-
 ## Atores na metodologia e workflows
 
 A gestão do dia a dia do Instituto AddressForAll é mantida através de
 seus órgãos colegiados: o Conselho Fiscal (CFis) e a Diretoria Executiva
 (DExe).
 
+![](assets-spec02/image3.png)
+
 A coordenação das equipes técnicas, compostas na sua maior parte de
-terceiros, fica a cargo da DExe.
+terceiros, fica a cargo da **DExe**.
 
-A equipe de Suporte cuida principalmente da da instalação e manutenção
-do servidor Web, e a equipe de desenvolvimento desenvolve e mantém o
-site e o software do sistema, hospedados no servidor Web.
+A equipe de **Suporte** cuida principalmente da da instalação e manutenção
+do servidor Web, e a equipe de **Desenvolvimento** desenvolve e mantém o
+site, suas APIs e o software do sistema, hospedados no servidor Web.
 
-Na equipe de Preparo de dados é que se encontram os principais atores do
+Na equipe de **Preparo** de dados é que se encontram os principais atores do
 workflow. As prefeituras e outras entidades ou empresas
 fornecedoreas/doadoras de dados entram em contato com a DExe da
 AddressForAll (ou sua equipe de marketing/relacionamento) que, uma vez
 fornecendo dados passam a se relacionar com a equipe de “Relacionamento
 e aquisição”, que faz parte da equipe de Preparo de dados.
 
+### Pessoas públicas nos marcos processuais
+
+Todo processo formal com envolvimento de pessoas e demanda por transparência, requer a identificação pública das pessoas que assumiram a responsabilidade por entregas. Para evitar problemas com a [LGPD](https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2018-08-14;13709) e normas similares, adotamos como responsáveis as pessoas dispostas a confirmarem a sua identidade publicamente.
+
+Quem oferece publicamente, em diários oficiais ou meios similares,  seu nome e CPF é uma [pessoa pública](https://github.com/datasets-br/public-person). Quanda não existir evidência oficial, é prevista, conforme Art. 2º, item II da LGPD,  a autodeterminação informativa. Para tornar pública a sua identificação, ela precisa ser expessa através de declaração digitalmente assinada e citando [página pública no `web.archive` como evidência](http://web.archive.org/).
+
+<!-- 
+Outros exemplos de pessoas públicas:
+
+* candidatos a cargos eletivos governamentais: o [TSE publica os dados](https://github.com/datasets-br/public-person/blob/master/src/tse-README.md).
+* funcionários públicos: em todas as esferas, municipal, estadual ou federal, é obrigatório o registro de nome e identificação em Diário Oficial.
+* MEI, microempreendedores individuais: o seu código de CNPJ é baseado no CPF, e o seu nome também precisa constar por extenso na razão social.  Como todo CNPJ é público, o signatário MEI se torna pessoa pública.
+-->
 -----
 
 # ESPECIFICAÇÃO
