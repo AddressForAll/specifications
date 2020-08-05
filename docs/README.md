@@ -13,7 +13,7 @@ Rótulo | Título | Status | Completo |  Público
 -------|--------|--------|--------|------
 Spec00 | Ciclo de vida das especificações técnicas e demais documentos oficiais | *draft* | 10%| Sim
 Spec01 | Infraestrutura em nuvem  |*draft* | 50% | Sim
-[**Spec02**](docs/spec02-workflow.md) | Metodologia geral e _workflows_ | *draft* | 25% | Sim
+[**Spec02**](spec02-workflow.md) | Metodologia geral e _workflows_ | *draft* | 25% | Sim
 Spec03 |  Modelo de Dados | *draft* | 25% | Não
 Spec04 |  Preservação Digital | *draft* | 25% | Não
 Spec05  | Geoprocessing Recipes| *draft* | ilimitado | Não
